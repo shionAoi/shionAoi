@@ -1,4 +1,4 @@
-ol {
+.exp ol {
     width: min(60rem, 90%);
     margin-inline: auto;
 
@@ -11,7 +11,7 @@ ol {
     justify-content: center;
 }
 
-li {
+.exp li {
     --frontColor: white;
     --width: 10em;
     --inlineP: 0.5rem;
@@ -28,38 +28,38 @@ li {
     position: relative;
 }
 
-li .title,
-li .descr {
+.exp li .title,
+.exp li .descr {
     background: var(--frontColor);
     padding-inline: 1rem;
     padding-bottom: 1rem;
 }
 
-li .title {
+.exp li .title {
     color: var(--accent-color);
     text-align: center;
     padding-bottom: 0.5rem;
 }
 
-li .title,
-li .descr {
+.exp li .title,
+.exp li .descr {
     filter: drop-shadow(0.125rem 0.125rem 0.075rem rgba(0, 0, 0, 0.25));
 }
 
-li .title {
+.exp li .title {
     grid-area: title;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-li .descr {
+.exp li .descr {
     grid-area: descr;
     font-size: 0.85rem;
     text-align: center;
     color: black;
 }
 
-li .descr::before {
+.exp li .descr::before {
     content: "";
     width: var(--arrowW);
     height: var(--arrowH);
@@ -70,7 +70,7 @@ li .descr::before {
     clip-path: polygon(0 0, 100% 0, 50% 100%);
 }
 
-li::after {
+.exp li::after {
     content: counter(cardnr, decimal-leading-zero);
     position: absolute;
     z-index: -1;
@@ -94,7 +94,7 @@ li::after {
     color: white;
 }
 
-li::before {
+.exp li::before {
     content: "";
     position: absolute;
     height: var(--borderR);

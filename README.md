@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="assets/styles.css" type="text/css">
 
 # FULL STACK DEVELOPER
 
@@ -19,25 +19,26 @@
 I am Javier Cornejo, a fullstack developer who brings innovation and efficiency to the heart of projects. I've learned about Software Development and best practices through courses in my university and I've worked in various projects that allowed me to improve my skills with practice.
 
 ## 🛠 Expertise
-
-<ol>
-    <li style="--accent-color:#354c7c">
-        <div class="title">BACKEND</div>
-        <div class="descr">Most experiencie in backend</div>
-    </li>
-    <li style="--accent-color:#505a74">
-        <div class="title">FRONTEND</div>
-        <div class="descr">Freelance and first jobs as frontend</div>
-    </li>
-    <li style="--accent-color:#b0b8ce">
-        <div class="title">DEVOPS</div>
-        <div class="descr">Experience using AWS cloud</div>
-    </li>
-    <li style="--accent-color:#BDBEBE">
-        <div class="title">SECURITY</div>
-        <div class="descr">TDD, OWASP, LINUX</div>
-    </li>
-</ol>
+<div class="exp">
+    <ol>
+        <li style="--accent-color:#354c7c">
+            <div class="title">BACKEND</div>
+            <div class="descr">Most experiencie in backend</div>
+        </li>
+        <li style="--accent-color:#505a74">
+            <div class="title">FRONTEND</div>
+            <div class="descr">Freelance and first jobs as frontend</div>
+        </li>
+        <li style="--accent-color:#b0b8ce">
+            <div class="title">DEVOPS</div>
+            <div class="descr">Experience using AWS cloud</div>
+        </li>
+        <li style="--accent-color:#BDBEBE">
+            <div class="title">SECURITY</div>
+            <div class="descr">TDD, OWASP, LINUX</div>
+        </li>
+    </ol>
+</div>
 
 ## ⚡️ Skills
 
