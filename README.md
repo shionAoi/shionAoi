@@ -1,8 +1,117 @@
 
+<style>
+    ol {
+    width: min(60rem, 90%);
+    margin-inline: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    list-style: none;
+    counter-reset: cardnr;
+    justify-content: center;
+}
+
+li {
+    --frontColor: white;
+    --width: 10em;
+    --inlineP: 0.5rem;
+    --borderR: 4rem;
+
+    counter-increment: cardnr;
+    width: calc(var(--width) - var(--inlineP) * 2);
+    display: grid;
+    grid-template:
+        "icon" var(--borderR) "title"
+        "descr" 1fr;
+    margin-inline: var(--inlineP);
+    margin-bottom: calc(var(--borderR));
+    position: relative;
+}
+
+li .title,
+li .descr {
+    background: var(--frontColor);
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+li .title {
+    color: var(--accent-color);
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+li .title,
+li .descr {
+    filter: drop-shadow(0.125rem 0.125rem 0.075rem rgba(0, 0, 0, 0.25));
+}
+
+li .title {
+    grid-area: title;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+li .descr {
+    grid-area: descr;
+    font-size: 0.85rem;
+    text-align: center;
+    color: black;
+}
+
+li .descr::before {
+    content: "";
+    width: var(--arrowW);
+    height: var(--arrowH);
+    position: absolute;
+    right: 1.5rem;
+    top: 100%;
+    background: inherit;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+li::after {
+    content: counter(cardnr, decimal-leading-zero);
+    position: absolute;
+    z-index: -1;
+
+    left: calc(var(--inlineP) * -1);
+    right: calc(var(--inlineP) * -1);
+    top: var(--borderR);
+    bottom: calc(var(--borderR) * -1);
+
+    display: flex;
+    align-items: flex-end;
+    background: var(--accent-color);
+    background-image: linear-gradient(160deg,
+            rgba(255, 255, 255, 0.25),
+            transparent 25% 75%,
+            rgba(0, 0, 0, 0.25));
+
+    --pad: 1rem;
+    padding: var(--pad);
+    font-size: calc(var(--borderR) - var(--pad) * 2);
+    color: white;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    height: var(--borderR);
+    top: calc(100% + var(--borderR) - 2px);
+    left: calc(var(--inlineP) * -1);
+    right: calc(var(--inlineP) * -1);
+    border-radius: 0 var(--borderR) 0 0;
+
+    background-image: linear-gradient(var(--accent-color), transparent 60%);
+    opacity: 0.5;
+    filter: blur(2px);
+}
+</style>
+
 # FULL STACK DEVELOPER
-
-<link rel="stylesheet" type="text/css" href="assets/styles.css" />
-
 <a href="https://www.jjcp.space" target="_blank">
     <picture>
         <!-- AVIF format for modern browsers that support it -->
