@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="assets/styles.css" type="text/css">
+<link rel="stylesheet" href="./assets/styles.css" type="text/css">
 
 # FULL STACK DEVELOPER
 
