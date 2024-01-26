@@ -17,90 +17,12 @@
 I am Javier Cornejo, a fullstack developer who brings innovation and efficiency to the heart of projects. I've learned about Software Development and best practices through courses in my university and I've worked in various projects that allowed me to improve my skills with practice.
 
 ## 🛠 Expertise
-<pre>
-    <style>
-        .cards {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1.5rem;
-            width: min(60rem, 90%);
-            margin-top: -6rem;
-            margin-bottom: -3rem;
-            justify-content: center;
-        }
 
-        .card {
-            padding: 5px;
-            width: calc(10em - 0.5rem * 2);
-            display: grid;
-            border-radius: 10px;
-            transition: all 0.2s;
-            margin-inline: 0.1rem;
-            margin-bottom: calc(var(4rem));
-        }
+![BACKEND](https://img.shields.io/badge/BACKEND-Experienced-354c7c)
+![FRONTEND](https://img.shields.io/badge/FRONTEND-Freelance_projects-505a74)
+![CLOUD](https://img.shields.io/badge/CLOUD-AWS_certified-b0b8ce)
+![DEVOPS](https://img.shields.io/badge/SECURITY-Sonarqube_OWASP-BDBEBE)
 
-        .card:hover {
-            box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.2);
-            transform: scale(1.01);
-        }
-
-        .card__title,
-        .card__description {
-            padding-inline: 0.5rem;
-        }
-
-        .card__title {
-            font-size: 1.1rem;
-            font-weight: bold;
-            color: #ffffff;
-            text-align: center;
-        }
-
-        .card__description {
-            text-align: center;
-            color: #ffffff;
-        }
-
-        /* CARD BACKGROUNDS */
-
-        .card-1 {
-            background: #354c7c;
-        }
-
-        .card-2 {
-            background: #505a74;
-        }
-
-        .card-3 {
-            background: #b0b8ce;
-        }
-
-        .card-4 {
-            background: #BDBEBE;
-        }
-    </style>
-<div class="main-container">
-  <div class="cards">
-    <div class="card card-1">
-        <span class="card__title">BACKEND</span>
-        <p class="card__description">Most experiencie in backend</p>
-    </div>
-    <div class="card card-2">
-        <span class="card__title">FRONTEND</span>
-        <p class="card__description">Freelance and first jobs as frontend</p>
-    </div>
-    <div class="card card-3">
-        <span class="card__title">DEVOPS</span>
-        <p class="card__description">Experience using AWS cloud</p>
-    </div>
-    <div class="card card-4">
-        <span class="card__title">SECURITY</span>
-        <p class="card__description">SonarQube, OWASP, LINUX</p>
-    </div>
-  </div>
-</div>
-</pre>
 
 ## ⚡️ Skills
 
