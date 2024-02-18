@@ -3,12 +3,12 @@
 
 <a href="https://www.jjcp.space" target="_blank">
     <picture>
+        <!-- JPEG format for older browsers -->
+        <img src="assets/logo.png" alt="jjcp.space">
         <!-- WebP format for modern browsers -->
         <source srcset="assets/logo.webp" type="image/webp">
         <!-- AVIF format for modern browsers that support it -->
         <source srcset="assets/logo.avif" type="image/avif">
-        <!-- JPEG format for older browsers -->
-        <img src="assets/logo.png" alt="jjcp.space">
     </picture>
 </a>
 
